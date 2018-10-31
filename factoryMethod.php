@@ -16,7 +16,6 @@ class Index {
         echo '<pre/>';
         echo  $result->getColor().PHP_EOL;
         var_dump($result);
-
         var_dump($result instanceof Bicycle);
     }
 
