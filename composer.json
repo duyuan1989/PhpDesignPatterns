@@ -1,0 +1,22 @@
+{
+    "name": "duyuan1989/php-design-patterns",
+    "description": "this is php design patterns composer packagit.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "duyuan",
+            "email": "275392854@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "Patterns\\AbstractFactory\\":"src\\AbstractFactory",
+            "Patterns\\Builder\\":"src\\Builder",
+            "Patterns\\Builder\\Parts\\":"src\\Builder\\Parts",
+            "Patterns\\FactoryMethod\\":"src\\FactoryMethod"
+        }
+    }
+}
